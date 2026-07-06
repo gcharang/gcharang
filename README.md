@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Guru Charan Gupta 👋</h1>
 
 <p align="center">
-  <b>Senior Full-Stack / AI Engineer</b> — web platforms · LLM &amp; media-model products · Cloudflare edge · blockchain infrastructure
+  <b>Senior Full-Stack / AI Engineer</b> · web platforms · LLM &amp; media-model products · Cloudflare edge · blockchain infrastructure
 </p>
 
 <p align="center">
@@ -16,21 +16,21 @@
 
 ---
 
-I'm a software engineer with **8+ years building production systems end to end** — user-facing apps, developer tooling, content infrastructure, and the CI/CD and edge infra beneath them.
+I'm a software engineer with **8+ years building production systems end to end**: user-facing apps, developer tooling, content infrastructure, and the CI/CD and edge infra beneath them.
 
-For eight years (2018–2025) I grew through **five roles** at **Komodo**, an open-source blockchain platform *(core technology acquired by Gleec, 2025)* — documentation, support, QA/DevOps, frontend, and full-stack. Now I build AI products.
+For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open-source blockchain platform *(core technology acquired by Gleec, 2025)*: documentation, support, QA/DevOps, frontend, and platform engineering. Now I build AI products.
 
 ## 🚀 What I'm working on
 
-- 🧠 **Founder &amp; AI Engineer @ [Proof of Tech](https://proofoftech.org)** — an AI-engineering consultancy. Built the platform solo on Astro + Cloudflare Workers, with a multi-agent, citation-gated content pipeline and a Lighthouse-CI performance budget enforced in CI.
-- ⚡ **Building AI products at an early-stage venture** — lead frontend author &amp; top backend contributor on a real-time, multimodal generative-AI web app (streaming chat + image / video / voice over self-hosted open-source models): SSE streaming UIs, a Radix design system, and hardened FastAPI backends (BFF cookie auth, CSRF/SSRF hardening, S3-backed media pipelines).
-- 🤖 Leaning on **multi-agent AI workflows** (Claude Code — skills, hooks, subagents) to move fast without dropping the quality bar.
+- 🧠 **Founder &amp; AI Engineer @ [Proof of Tech](https://proofoftech.org)**, an AI-engineering consultancy. Built the platform solo on Astro + Cloudflare Workers: "Ask the Field Notes", a live hybrid-RAG search (BM25 + Vectorize + Reciprocal Rank Fusion, streamed cited answers), a multi-agent citation-gated content pipeline, and a Lighthouse-CI (CWV) performance budget enforced in CI.
+- ⚡ **Building AI products at an early-stage venture** as lead frontend author &amp; top backend contributor: a real-time, multimodal generative-AI web app (streaming chat + image / video / voice over self-hosted open-source models), with SSE streaming UIs, a Radix design system, and hardened FastAPI backends (BFF cookie auth, CSRF/SSRF hardening, S3-backed media pipelines).
+- 🤖 Leaning on **multi-agent AI workflows** (Claude Code: skills, hooks, subagents) to move fast without dropping the quality bar.
 
 ## ✨ Selected highlights
 
-- 🌐 Shipped Komodo's public web estate — **10+ properties, 120k+ monthly visits, 1M+ monthly Google Search impressions**.
-- 🛡️ Led the userfacing  response to the **2019 Agama supply-chain attack** — helped recover funds for **thousands of users**.
-- 📈 Built a DeFi markets dashboard charting **1000+ trading pairs**; a comprehensive docs platform with MDX source and Nextjs build and deploy system that lints all the docs, adds attribution based on git commit history and more.
+- 🌐 Shipped Komodo's public web estate: **10+ properties, 120k+ monthly visits, 1M+ monthly Google Search impressions**.
+- 🛡️ Led the user-facing response to the **2019 Agama supply-chain attack** and helped recover funds for **thousands of users**.
+- 📈 Built a DeFi markets dashboard charting **1000+ trading pairs**; also a docs platform with MDX source and a Next.js build-and-deploy system that lints all the docs, adds attribution based on git commit history, and more.
 - 🔗 Ran a **multi-region dPoW notary-node stack** helping protect **15+ Smart Chains** against 51% attacks.
 
 ## 🛠️ Tech I reach for
@@ -73,16 +73,16 @@ For eight years (2018–2025) I grew through **five roles** at **Komodo**, an op
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[react-komodefi-wasm](https://github.com/gcharang/react-komodefi-wasm)** · [live ↗](https://kdf-wasm.lordofthechains.com) | Komodo DeFi Framework atomic swaps running in-browser — 30+ MB Rust→WASM with a service-worker compress/fetch/decompress pipeline | TypeScript · Next.js · WASM |
-| **[claude-config](https://github.com/gcharang/claude-config)** | Plan-then-execute, multi-agent Claude Code workflow — deterministic scaffolding + quality-gate loops so smaller models ship large features | Python · Claude Code |
-| **[create-smartchain](https://github.com/gcharang/create-smartchain)** | One-command Komodo Smart Chain test networks — auto-generated configs, idempotent lifecycle | Shell |
+| **[react-komodefi-wasm](https://github.com/gcharang/react-komodefi-wasm)** · [live ↗](https://kdf-wasm.lordofthechains.com) | Komodo DeFi Framework atomic swaps running in-browser: 30+ MB Rust→WASM with a service-worker compress/fetch/decompress pipeline | TypeScript · Next.js · WASM |
+| **[claude-config](https://github.com/gcharang/claude-config)** | Plan-then-execute, multi-agent Claude Code workflow: deterministic scaffolding + quality-gate loops so smaller models ship large features | Python · Claude Code |
+| **[create-smartchain](https://github.com/gcharang/create-smartchain)** | One-command Komodo Smart Chain test networks: auto-generated configs, idempotent lifecycle | Shell |
 | **[komodo-install-explorer](https://github.com/gcharang/komodo-install-explorer)** | Automated Komodo Smart Chain block-explorer install | Shell |
-| **[komodo-docs-mdx](https://github.com/GLEECBTC/komodo-docs-mdx)** | MDX→Next.js docs platform powering [komodoplatform.com/en/docs](https://komodoplatform.com/en/docs) — custom remark/rehype, generated API samples, in-browser fuzzy search | TypeScript · MDX |
+| **[komodo-docs-mdx](https://github.com/GLEECBTC/komodo-docs-mdx)** | MDX→Next.js docs platform powering [komodoplatform.com/en/docs](https://komodoplatform.com/en/docs): custom remark/rehype, generated API samples, in-browser fuzzy search | TypeScript · MDX |
 | **[node-komodo-rpc](https://github.com/gcharang/node-komodo-rpc)** · [npm ↗](https://www.npmjs.com/package/node-komodo-rpc) | Promise-based, multi-instance Komodo daemon RPC client | JavaScript |
 
 ## 🌍 Open-source contributions
 
-**Komodo ecosystem** (KomodoPlatform / GLEECBTC) —
+**Komodo ecosystem** (KomodoPlatform / GLEECBTC):
 [komodo-defi-framework](https://github.com/GLEECBTC/komodo-defi-framework) ·
 [dPoW](https://github.com/KomodoPlatform/dPoW) ·
 [NotaryNodes](https://github.com/KomodoPlatform/NotaryNodes) ·
@@ -90,7 +90,7 @@ For eight years (2018–2025) I grew through **five roles** at **Komodo**, an op
 [komodo-docs-mdx](https://github.com/GLEECBTC/komodo-docs-mdx) ·
 [hw-kmd-wallet](https://github.com/GLEECBTC/hw-kmd-wallet)
 
-**Beyond Komodo** —
+**Beyond Komodo**:
 [TokelPlatform/documentation](https://github.com/TokelPlatform/documentation)
 
 ## 📫 Connect
@@ -100,7 +100,3 @@ For eight years (2018–2025) I grew through **five roles** at **Komodo**, an op
   <a href="https://proofoftech.org"><img src="https://img.shields.io/badge/Proof%20of%20Tech-2F81F7?style=for-the-badge&logo=astro&logoColor=white" alt="Proof of Tech" /></a>
   <a href="mailto:mrgcharang@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
-
----
-
-<p align="center"><i>Building systems that survive real traffic — one production launch at a time.</i></p>
