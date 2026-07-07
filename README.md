@@ -23,7 +23,7 @@ For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open
 ## 🚀 What I'm working on
 
 - 🧠 **Founder &amp; AI Engineer @ [Proof of Tech](https://proofoftech.org)**, an AI-engineering consultancy. Built the platform solo on Astro + Cloudflare Workers: "Ask the Field Notes", a live hybrid-RAG search (BM25 + Vectorize + Reciprocal Rank Fusion, streamed cited answers), a multi-agent citation-gated content pipeline, and a Lighthouse-CI (CWV) performance budget enforced in CI.
-- ⚡ **Building AI products at an early-stage venture** as lead frontend author &amp; top backend contributor: a real-time, multimodal generative-AI web app (streaming chat + image / video / voice over self-hosted open-source models), with SSE streaming UIs, a Radix design system, and hardened FastAPI backends (BFF cookie auth, CSRF/SSRF hardening, S3-backed media pipelines).
+- ⚡ **Building AI products at an early-stage venture** as lead frontend engineer &amp; top backend contributor: a real-time, multimodal generative-AI web app (streaming chat + image / video / voice over self-hosted open-source models), with SSE streaming UIs, a Radix design system, and hardened FastAPI backends (BFF cookie auth, CSRF/SSRF hardening, S3-backed media pipelines).
 - 🤖 Leaning on **multi-agent AI workflows** (Claude Code: skills, hooks, subagents) to move fast without dropping the quality bar.
 
 ## ✨ Selected highlights
