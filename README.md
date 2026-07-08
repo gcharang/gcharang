@@ -18,7 +18,7 @@
 
 I'm a software engineer with **8+ years building production systems end to end**: user-facing apps, developer tooling, content infrastructure, and the CI/CD and edge infra beneath them.
 
-For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open-source blockchain platform *(core technology acquired by Gleec, 2025)*: documentation, support, QA/DevOps, frontend, and platform engineering. Now I build AI products.
+For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open-source blockchain platform *(core technology acquired by Gleec, 2025)*: documentation, support, QA/DevOps, frontend, and platform engineering. The product was a non-custodial multi-chain wallet and a cross-chain atomic-swap DEX: people held their own keys and traded directly across blockchains, with no exchange in the middle. Now I build AI products.
 
 ## 🚀 What I'm working on
 
@@ -29,9 +29,21 @@ For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open
 ## ✨ Selected highlights
 
 - 🌐 Shipped Komodo's public web estate: **10+ properties, 120k+ monthly visits, 1M+ monthly Google Search impressions**.
-- 🛡️ Led the user-facing response to the **2019 Agama supply-chain attack** and helped recover funds for **thousands of users**.
+- 🛡️ Led the user-facing response to the **2019 Agama supply-chain attack** and coordinated fund recovery for **thousands of users** after a **~$13M** white-hat sweep.
 - 📈 Built a DeFi markets dashboard charting **1000+ trading pairs**; also a docs platform with MDX source and a Next.js build-and-deploy system that lints all the docs, adds attribution based on git commit history, and more.
 - 🔗 Ran a **multi-region dPoW notary-node stack** helping protect **15+ Smart Chains** against 51% attacks.
+
+## 🧩 More from Komodo (2018-2025)
+
+Across those five roles I also:
+
+- 🛂 wrote a geographic-compliance Cloudflare Worker (TypeScript/Hono) screening **2M+ requests/month** against a **34-jurisdiction** policy, with fail-closed defaults;
+- 🤝 was the technical point of contact for **20+ centralized exchanges** integrating Komodo and its Smart Chains, bridging product, QA, docs, and support across releases;
+- 💬 built the in-app feedback Worker (parallel Trello/Matrix/Backblaze fan-out) that cut response times by **more than 50%**;
+- 🔄 was users' go-to when a cross-chain atomic swap stalled: diagnosed the failure, recovered stuck funds, and wrote the guides that prevented the next one;
+- 🗳️ won **5+ community elections** to keep operating that dPoW stack, a consensus-critical seat, and built the on-chain governance and vote-tally dashboards the elections used;
+- 🧑‍🏫 taught junior engineers blockchain fundamentals throughout the KDF WASM Playground build;
+- 🧰 sole-authored the [KDF WASM RPC bridge](https://github.com/GLEECBTC/komodo-defi-wasm-rpc) (Node.js/Puppeteer) so browser-only builds run under existing JSON-RPC tooling like a native daemon, and wrote **7 technical articles** on the [official blog](https://komodoplatform.com/en/blog/author/gcharang/).
 
 ## 🛠️ Tech I reach for
 
@@ -73,7 +85,7 @@ For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[react-komodefi-wasm](https://github.com/gcharang/react-komodefi-wasm)** · [live ↗](https://kdf-wasm.lordofthechains.com) | Komodo DeFi Framework atomic swaps running in-browser: 30+ MB Rust→WASM with a service-worker compress/fetch/decompress pipeline | TypeScript · Next.js · WASM |
+| **[react-komodefi-wasm](https://github.com/gcharang/react-komodefi-wasm)** · [live ↗](https://kdf-wasm.lordofthechains.com) | Komodo DeFi Framework atomic swaps running in-browser: a 30+ MB WebAssembly build with a service-worker compress/fetch/decompress pipeline | TypeScript · Next.js · WASM |
 | **[claude-config](https://github.com/gcharang/claude-config)** | Plan-then-execute, multi-agent Claude Code workflow: deterministic scaffolding + quality-gate loops so smaller models ship large features | Python · Claude Code |
 | **[create-smartchain](https://github.com/gcharang/create-smartchain)** | One-command Komodo Smart Chain test networks: auto-generated configs, idempotent lifecycle | Shell |
 | **[komodo-install-explorer](https://github.com/gcharang/komodo-install-explorer)** | Automated Komodo Smart Chain block-explorer install | Shell |
