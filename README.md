@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://proofoftech.org">🌐 Proof of Tech</a> &nbsp;·&nbsp;
+  <a href="https://kdf-wasm.lordofthechains.com">🧪 KDF WASM Playground</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/gcharang">💼 LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:mrgcharang@gmail.com">📧 Email</a>
 </p>
@@ -18,7 +19,11 @@
 
 I'm a software engineer with **8+ years building production systems end to end**: user-facing apps, developer tooling, content infrastructure, and the CI/CD and edge infra beneath them.
 
-For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open-source blockchain platform *(core technology acquired by Gleec, 2025)*: documentation, support, QA/DevOps, frontend, and platform engineering. The product was a non-custodial multi-chain wallet and a cross-chain atomic-swap DEX: people held their own keys and traded directly across blockchains, with no exchange in the middle. Now I build AI products.
+For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open-source blockchain platform *(core technology acquired by Gleec, 2025)*: documentation, support, QA/DevOps, frontend, and platform engineering. The product was a non-custodial multi-chain wallet and a cross-chain atomic-swap DEX: people held their own keys and traded directly across blockchains, with no exchange in the middle. I was the technical point of contact for the **20+ centralized exchanges** integrating Komodo and its Smart Chains, bridging product, QA, docs, and support across releases. Now I build AI products.
+
+> 🧪 **[KDF WASM Playground](https://kdf-wasm.lordofthechains.com)** · [source](https://github.com/gcharang/react-komodefi-wasm)
+>
+> Komodo's atomic-swap engine, running in a browser tab. A **30+ MB** WebAssembly build behind a service-worker compress/fetch/decompress pipeline: **1.1 s** cold, **231 ms** on return. Integrators, QA, and docs readers fire real RPC calls against it with no local build.
 
 ## 🚀 What I'm working on
 
@@ -28,7 +33,7 @@ For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open
 
 ## ✨ Selected highlights
 
-- 🌐 Shipped Komodo's public web estate: **10+ properties, 120k+ monthly visits, 1M+ monthly Google Search impressions**.
+- 🌐 Shipped Komodo's public web estate across **5+ launches and rebrands**: **10+ properties, 120k+ monthly visits, 1M+ monthly Google Search impressions**.
 - 🛡️ Led the user-facing response to the **2019 Agama supply-chain attack** and coordinated fund recovery for **thousands of users** after a **~$13M** white-hat sweep.
 - 📈 Built a DeFi markets dashboard charting **1000+ trading pairs**; also a docs platform with MDX source and a Next.js build-and-deploy system that lints all the docs, adds attribution based on git commit history, and more.
 - 🔗 Ran a **multi-region dPoW notary-node stack** helping protect **15+ Smart Chains** against 51% attacks.
@@ -38,7 +43,6 @@ For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open
 Across those five roles I also:
 
 - 🛂 wrote a geographic-compliance Cloudflare Worker (TypeScript/Hono) screening **2M+ requests/month** against a **34-jurisdiction** policy, with fail-closed defaults;
-- 🤝 was the technical point of contact for **20+ centralized exchanges** integrating Komodo and its Smart Chains, bridging product, QA, docs, and support across releases;
 - 💬 built the in-app feedback Worker (parallel Trello/Matrix/Backblaze fan-out) that cut response times by **more than 50%**;
 - 🔄 was users' go-to when a cross-chain atomic swap stalled: diagnosed the failure, recovered stuck funds, and wrote the guides that prevented the next one;
 - 🗳️ won **5+ community elections** to keep operating that dPoW stack, a consensus-critical seat, and built the on-chain governance and vote-tally dashboards the elections used;
@@ -79,13 +83,15 @@ Across those five roles I also:
 
 **AI &amp; Automation**
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-412991?style=flat-square&logo=openai&logoColor=white)
+![Hybrid RAG](https://img.shields.io/badge/Hybrid%20RAG-1C3C3C?style=flat-square&logoColor=white)
+![Workers AI](https://img.shields.io/badge/Workers%20AI-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Vectorize](https://img.shields.io/badge/Vectorize-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 ## 📌 Featured projects
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[react-komodefi-wasm](https://github.com/gcharang/react-komodefi-wasm)** · [live ↗](https://kdf-wasm.lordofthechains.com) | Komodo DeFi Framework atomic swaps running in-browser: a 30+ MB WebAssembly build with a service-worker compress/fetch/decompress pipeline | TypeScript · Next.js · WASM |
+| **[react-komodefi-wasm](https://github.com/gcharang/react-komodefi-wasm)** · [live ↗](https://kdf-wasm.lordofthechains.com) | Zero-install sandbox for the Komodo DeFi RPC API: hot-swappable engine versions, request save/load, log download, seed-phrase import | TypeScript · Next.js · WASM |
 | **[claude-config](https://github.com/gcharang/claude-config)** | Plan-then-execute, multi-agent Claude Code workflow: deterministic scaffolding + quality-gate loops so smaller models ship large features | Python · Claude Code |
 | **[create-smartchain](https://github.com/gcharang/create-smartchain)** | One-command Komodo Smart Chain test networks: auto-generated configs, idempotent lifecycle | Shell |
 | **[komodo-install-explorer](https://github.com/gcharang/komodo-install-explorer)** | Automated Komodo Smart Chain block-explorer install | Shell |
