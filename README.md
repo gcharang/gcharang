@@ -1,18 +1,19 @@
 <h1 align="center">Hi, I'm Guru Charan Gupta 👋</h1>
 
 <p align="center">
-  <b>Senior Full-Stack / AI Engineer</b> · web platforms · LLM &amp; media-model products · Cloudflare edge · blockchain infrastructure
+  <b>Senior Full-Stack / AI Engineer</b> · web platforms · LLM &amp; media-model products · agent safety tooling · Cloudflare edge · blockchain infrastructure
 </p>
 
 <p align="center">
   <a href="https://proofoftech.org">🌐 Proof of Tech</a> &nbsp;·&nbsp;
+  <a href="https://anchorage.proofoftech.org">⚓ Anchorage demo</a> &nbsp;·&nbsp;
   <a href="https://kdf-wasm.lordofthechains.com">🧪 KDF WASM Playground</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/gcharang">💼 LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:mrgcharang@gmail.com">📧 Email</a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3200&pause=800&center=true&vCenter=true&width=620&color=2F81F7&lines=8%2B+years+shipping+production+systems+end+to+end;Apps+%2B+developer+tooling+%2B+content+infrastructure;LLM+%26+media-model+products+on+the+Cloudflare+edge;Multi-agent+AI+workflows+with+Claude+Code" alt="what I do" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3200&pause=800&center=true&vCenter=true&width=620&color=2F81F7&lines=8%2B+years+shipping+production+systems+end+to+end;Apps+%2B+developer+tooling+%2B+content+infrastructure;LLM+%26+media-model+products+on+the+Cloudflare+edge;Open-source+safety+tooling+for+AI+agent+workflows;Multi-agent+AI+workflows+with+Claude+Code" alt="what I do" />
 </p>
 
 ---
@@ -21,13 +22,19 @@ I'm a software engineer with **8+ years building production systems end to end**
 
 For eight years (2018-2025) I grew through **five roles** at **Komodo**, an open-source blockchain platform *(core technology acquired by Gleec, 2025)*: documentation, support, QA/DevOps, frontend, and platform engineering. The product was a non-custodial multi-chain wallet and a cross-chain atomic-swap DEX: people held their own keys and traded directly across blockchains, with no exchange in the middle. I was the technical point of contact for the **20+ centralized exchanges** integrating Komodo and its Smart Chains, bridging product, QA, docs, and support across releases. Now I build AI products.
 
+> ⚓ **[Anchorage](https://anchorage.proofoftech.org)** · [source](https://github.com/ProofOfTechOrg/anchorage) · [API reference](https://proofoftechorg.github.io/anchorage/)
+>
+> Open-source enterprise safety layer for AI agent workflows, built on Mastra, so an agent's outward actions wait for human approval and leave an audit trail. RBAC, per-action audit, egress and write-permission policy, and Cloudflare-native durable execution: a run suspends at an approval step, survives a server restart, and resumes from its snapshot, and CI proves that on the real Workers runtime. Apache-2.0, on npm with provenance.
+
 > 🧪 **[KDF WASM Playground](https://kdf-wasm.lordofthechains.com)** · [source](https://github.com/gcharang/react-komodefi-wasm)
 >
 > Komodo's atomic-swap engine, running in a browser tab. A **30+ MB** WebAssembly build behind a service-worker compress/fetch/decompress pipeline: **1.1 s** cold, **231 ms** on return. Integrators, QA, and docs readers fire real RPC calls against it with no local build.
 
 ## 🚀 What I'm working on
 
-- 🧠 **Founder &amp; AI Engineer @ [Proof of Tech](https://proofoftech.org)**, an AI-engineering consultancy. Built the platform solo on Astro + Cloudflare Workers: "Ask the Field Notes", a live hybrid-RAG search (BM25 + Vectorize + Reciprocal Rank Fusion, streamed cited answers), a multi-agent citation-gated content pipeline, and a Lighthouse-CI (CWV) performance budget enforced in CI.
+- 🧠 **Founder &amp; AI Engineer @ [Proof of Tech](https://proofoftech.org)**, an AI-engineering consultancy. Built the platform solo on Astro + Cloudflare Workers: "Ask the Field Notes", a live hybrid-RAG search (BM25 + Vectorize + Reciprocal Rank Fusion, streamed cited answers), a citation-gated multi-agent content pipeline behind **154 authored posts drawing on 537 arXiv papers**, and a Lighthouse-CI (CWV) performance budget enforced in CI.
+- 🧰 Open-sourcing the layers underneath the agents. **[understudy](https://github.com/ProofOfTechOrg/understudy)** is a model-free browser-execution substrate: it drives an already-logged-in Chromium tab over `chrome.debugger`/CDP behind approval gates, with credentials resolved service-side so they never reach a model's context. **[vectorless-rag](https://github.com/ProofOfTechOrg/vectorless-rag)** answers grounded questions over a local PDF corpus without embeddings or a vector database, routing each request through a LangGraph agent and expanding a document tree so every citation resolves to a page. Both MIT, both sole-authored; understudy's protocol and connector ship on npm.
+- 🎙️ Also at Proof of Tech, built a **hands-free voice agent** on Cloudflare Workers: one click opens a continuous browser call, speech recognition through Workers AI decides when a turn ends so nobody presses a button, and talking over the reply aborts the model and speech calls mid-turn, dropping audio already in flight so it stops rather than speaking over the person.
 - ⚡ **Building AI products at an early-stage venture** as lead frontend engineer &amp; top backend contributor: a real-time, multimodal generative-AI web app (streaming chat + image / video / voice over self-hosted open-source models), with SSE streaming UIs, a Radix design system, and hardened FastAPI backends (BFF cookie auth, CSRF/SSRF hardening, S3-backed media pipelines).
 - 🤖 Leaning on **multi-agent AI workflows** (Claude Code: skills, hooks, subagents) to move fast without dropping the quality bar.
 
@@ -83,6 +90,8 @@ Across those five roles I also:
 
 **AI &amp; Automation**
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Mastra](https://img.shields.io/badge/Mastra-1B1B1F?style=flat-square&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Hybrid RAG](https://img.shields.io/badge/Hybrid%20RAG-1C3C3C?style=flat-square&logoColor=white)
 ![Workers AI](https://img.shields.io/badge/Workers%20AI-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Vectorize](https://img.shields.io/badge/Vectorize-F38020?style=flat-square&logo=cloudflare&logoColor=white)
@@ -91,6 +100,9 @@ Across those five roles I also:
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[anchorage](https://github.com/ProofOfTechOrg/anchorage)** · [live ↗](https://anchorage.proofoftech.org) · [API docs ↗](https://proofoftechorg.github.io/anchorage/) | The guardrails an agent runs behind: connector permission manifests, a React approval dashboard, an in-browser control room replaying attack scenarios against the real evaluators, an audit stream exported to a SIEM | TypeScript · Mastra · Durable Objects |
+| **[understudy](https://github.com/ProofOfTechOrg/understudy)** · [npm ↗](https://www.npmjs.com/package/@understudy/protocol) | Executes what an agent decides: an encrypted credential vault, a dry run that never dispatches the real write, refs that fail closed against a replaced tab, per-tenant isolation where a cross-tenant request returns 404 | TypeScript · MV3 · CDP |
+| **[vectorless-rag](https://github.com/ProofOfTechOrg/vectorless-rag)** | The parts that keep a research app honest: model-written SQL validated before it reaches Postgres, content-addressed artifacts with audited activation, a worst-case cost reserved before any paid model call | Python · FastAPI · LangGraph |
 | **[react-komodefi-wasm](https://github.com/gcharang/react-komodefi-wasm)** · [live ↗](https://kdf-wasm.lordofthechains.com) | Zero-install sandbox for the Komodo DeFi RPC API: hot-swappable engine versions, request save/load, log download, seed-phrase import | TypeScript · Next.js · WASM |
 | **[claude-config](https://github.com/gcharang/claude-config)** | Plan-then-execute, multi-agent Claude Code workflow: deterministic scaffolding + quality-gate loops so smaller models ship large features | Python · Claude Code |
 | **[create-smartchain](https://github.com/gcharang/create-smartchain)** | One-command Komodo Smart Chain test networks: auto-generated configs, idempotent lifecycle | Shell |
@@ -98,9 +110,16 @@ Across those five roles I also:
 | **[komodo-docs-mdx](https://github.com/GLEECBTC/komodo-docs-mdx)** | MDX→Next.js docs platform powering [komodoplatform.com/en/docs](https://komodoplatform.com/en/docs): custom remark/rehype, generated API samples, in-browser fuzzy search | TypeScript · MDX |
 | **[node-komodo-rpc](https://github.com/gcharang/node-komodo-rpc)** · [npm ↗](https://www.npmjs.com/package/node-komodo-rpc) | Promise-based, multi-instance Komodo daemon RPC client | JavaScript |
 
-## 🌍 Open-source contributions
+## 🌍 Open source
 
-**Komodo ecosystem** (KomodoPlatform / GLEECBTC):
+**Published by me on npm:**
+[@proofoftech/breakwater](https://www.npmjs.com/package/@proofoftech/breakwater) ·
+[@proofoftech/flowsafe](https://www.npmjs.com/package/@proofoftech/flowsafe) ·
+[@understudy/protocol](https://www.npmjs.com/package/@understudy/protocol) ·
+[@understudy/connector](https://www.npmjs.com/package/@understudy/connector) ·
+[node-komodo-rpc](https://www.npmjs.com/package/node-komodo-rpc)
+
+**Komodo ecosystem** (KomodoPlatform / GLEECBTC), merged contributions:
 [komodo-defi-framework](https://github.com/GLEECBTC/komodo-defi-framework) ·
 [dPoW](https://github.com/KomodoPlatform/dPoW) ·
 [NotaryNodes](https://github.com/KomodoPlatform/NotaryNodes) ·
