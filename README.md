@@ -129,9 +129,6 @@ Across those five roles I also:
 [komodo-docs-mdx](https://github.com/GLEECBTC/komodo-docs-mdx) ·
 [hw-kmd-wallet](https://github.com/GLEECBTC/hw-kmd-wallet)
 
-**Beyond Komodo**:
-[TokelPlatform/documentation](https://github.com/TokelPlatform/documentation)
-
 ## 📫 Connect
 
 <p align="left">
