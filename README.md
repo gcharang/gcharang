@@ -5,8 +5,6 @@
 </p>
 
 <p align="center">
-  <a href="https://proofoftech.org">🌐 Proof of Tech</a> &nbsp;·&nbsp;
-  <a href="https://proofoftech.org/people/gcharang/">👤 Portfolio</a> &nbsp;·&nbsp;
   <a href="https://anchorage.proofoftech.org">⚓ Anchorage demo</a> &nbsp;·&nbsp;
   <a href="https://kdf-wasm.lordofthechains.com">🧪 KDF WASM Playground</a> &nbsp;·&nbsp;
   <a href="https://linkedin.com/in/gcharang">💼 LinkedIn</a> &nbsp;·&nbsp;
@@ -33,11 +31,11 @@ For close to eight years (2018-2025) I grew through **five roles** at **Komodo**
 
 ## 🚀 What I'm working on
 
-- 🧠 **Founder &amp; AI Engineer @ [Proof of Tech](https://proofoftech.org)**, an AI-engineering consultancy. Built the platform solo on Astro + Cloudflare Workers: "Ask the Field Notes", a live hybrid-RAG search (BM25 + Vectorize + Reciprocal Rank Fusion, streamed cited answers), a citation-gated multi-agent content pipeline behind **154 authored posts drawing on 537 arXiv papers**, and a Lighthouse-CI (CWV) performance budget enforced in CI.
+- 📝 **Writing and running a technical site**, built solo on Astro + Cloudflare Workers: "Ask the Field Notes", a live hybrid-RAG search over the essays (BM25 + Vectorize + Reciprocal Rank Fusion, streamed cited answers), a citation-gated multi-agent content pipeline behind **154 authored posts drawing on 537 arXiv papers**, and a Lighthouse-CI (CWV) performance budget enforced in CI.
 - 🧰 Open-sourcing the layers underneath the agents. **[understudy](https://github.com/ProofOfTechOrg/understudy)** is a model-free browser-execution substrate: it drives an already-logged-in Chromium tab over `chrome.debugger`/CDP behind approval gates, with credentials resolved service-side so they never reach a model's context. **[vectorless-rag](https://github.com/ProofOfTechOrg/vectorless-rag)** answers grounded questions over a local PDF corpus without embeddings or a vector database, routing each request through a LangGraph agent and expanding a document tree so every citation resolves to a page. Both MIT, both sole-authored; understudy's protocol and connector ship on npm.
 - 🧱 Then building products on those libraries rather than around them. **An agent and capability cloud** gives a hosted agent a priced, metered, governed way to call outside services: a control plane owning definitions and deployments, my own flowsafe Durable Object runner as the only thing that executes a run, a budget-authorizer Durable Object counting in-flight reservations against caps behind a kill switch, and a remote MCP server on the gateway itself. A separate **shadow-mode AML alert-triage platform** takes privacy-masked monitoring and sanctions alerts and returns evidence-cited disposition recommendations while taking no regulated action: a deterministic rules engine runs the mandatory hard stops before any model call, so a model can never recommend closure over a triggered stop, and a human analyst makes every binding decision.
 - 💳 Built a complete **stablecoin payment gateway** and operated it end to end on a live public testnet, for a regulated fiat-backed stablecoin on an EVM ZK-rollup L2. Hosted checkout, a merchant SDK and a WooCommerce plugin, signed webhooks, an event-sourced invoice machine over a hash-chained double-entry ledger, custody with maker-checker payouts, KYB/KYT and sanctions screening, and the Solidity contracts underneath, tested in Foundry with a gas-drift gate in CI. My own load test against a single instance held 2,500 concurrent checkout sessions at p95 280 ms.
-- 🎙️ Also at Proof of Tech, built a **hands-free voice agent** on Cloudflare Workers: one click opens a continuous browser call, speech recognition through Workers AI decides when a turn ends so nobody presses a button, and talking over the reply aborts the model and speech calls mid-turn, dropping audio already in flight so it stops rather than speaking over the person.
+- 🎙️ Built a **hands-free voice agent** on Cloudflare Workers: one click opens a continuous browser call, speech recognition through Workers AI decides when a turn ends so nobody presses a button, and talking over the reply aborts the model and speech calls mid-turn, dropping audio already in flight so it stops rather than speaking over the person.
 - ⚡ **Building AI products at an early-stage venture** as lead frontend engineer &amp; core backend engineer: a real-time, multimodal generative-AI web app (streaming chat + image / video / voice over self-hosted open-source models), with SSE streaming UIs, a Radix design system, and hardened FastAPI backends (BFF cookie auth, CSRF/SSRF hardening, S3-backed media pipelines).
 - 🤖 Leaning on **multi-agent AI workflows** (Claude Code: skills, hooks, subagents) to move fast without dropping the quality bar.
 
@@ -138,6 +136,5 @@ Across those five roles I also:
 
 <p align="left">
   <a href="https://linkedin.com/in/gcharang"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://proofoftech.org"><img src="https://img.shields.io/badge/Proof%20of%20Tech-2F81F7?style=for-the-badge&logo=astro&logoColor=white" alt="Proof of Tech" /></a>
   <a href="mailto:mrgcharang@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
